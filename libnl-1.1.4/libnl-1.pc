@@ -1,0 +1,10 @@
+prefix=/home1/xuanxiaocheng/projects/wpa_supplicant-for-arm-linux/out/usr
+exec_prefix=/home1/xuanxiaocheng/projects/wpa_supplicant-for-arm-linux/out/usr
+libdir=${exec_prefix}/lib
+includedir=/home1/xuanxiaocheng/projects/wpa_supplicant-for-arm-linux/out/usr/include
+
+Name: libnl
+Description: Convenience library for netlink sockets
+Version: 1.1.4
+Libs: -L${libdir} -lnl
+Cflags:
